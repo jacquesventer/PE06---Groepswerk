@@ -24,5 +24,20 @@ namespace MailingList.Wpf
         {
             InitializeComponent();
         }
+
+        private void btnGreen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBlue_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnOrange_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

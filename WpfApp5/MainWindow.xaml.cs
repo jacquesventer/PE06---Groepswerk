@@ -12,6 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.OleDb;
+using MailingList.Lib.Entities;
+using MailingList.Lib.Services;
+
+
+
 
 namespace WpfApp5
 {
