@@ -5,8 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Questionnaire" Height="766.924" Width="800">
     <Grid>
-        
+        <Label x:Name="label" Content="Fill out this form and choose the correct answer for a chance to win*." HorizontalAlignment="Left" Margin="60,128,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" Foreground="#FF6A6969" FontSize="14" Width="501"/>
+        <Label x:Name="label1" Content="Enter Our Contest!" HorizontalAlignment="Left" Margin="60,90,0,0" VerticalAlignment="Top" Width="249" FontFamily="Segoe UI Black" FontSize="22" TextOptions.TextHintingMode="Fixed" Foreground="#FF6A6969"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="65,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" Margin="410,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="65,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="665"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="23" Margin="65,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="665"/>
+        <TextBox x:Name="txtAddressLine1" HorizontalAlignment="Left" Height="23" Margin="65,377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="665"/>
+        <TextBox x:Name="txtAddressLine2" HorizontalAlignment="Left" Height="23" Margin="65,412,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="665"/>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="23" Margin="65,447,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <TextBox x:Name="txtPostalCode" HorizontalAlignment="Left" Height="23" Margin="410,447,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <Label x:Name="label2" Content="Name" HorizontalAlignment="Left" Margin="62,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.148,0.471" FontWeight="Bold" Foreground="#FF6A6969"/>
+        <Label x:Name="label3" Content="First Name" HorizontalAlignment="Left" Margin="61,208,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11"/>
+        <Label x:Name="label3_Copy" Content="Last Name" HorizontalAlignment="Left" Margin="406,209,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11"/>
+        <Label x:Name="label2_Copy" Content="Email" HorizontalAlignment="Left" Margin="62,240,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.148,0.471" FontWeight="Bold" Foreground="#FF6A6969"/>
+        <Label x:Name="label2_Copy1" Content="Phone" HorizontalAlignment="Left" Margin="62,298,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.148,0.471" FontWeight="Bold" Foreground="#FF6A6969"/>
+        <Label x:Name="label2_Copy2" Content="Address" HorizontalAlignment="Left" Margin="62,354,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.148,0.471" FontWeight="Bold" Foreground="#FF6A6969"/>
+        <Label x:Name="label3_Copy1" Content="City" HorizontalAlignment="Left" Margin="61,464,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11"/>
+        <Label x:Name="label3_Copy2" Content="Postal Code" HorizontalAlignment="Left" Margin="405,464,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11"/>
+        <Image x:Name="Image1_png" Margin="250,11,250,660" Source="Image1.png" Stretch="Fill"/>
+        <Label x:Name="label4" Content="* All correct answers will be entered into the draw, the winner will be notified by email  " HorizontalAlignment="Left" Margin="64,646,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Green" HorizontalAlignment="Left" Margin="149,558,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92E692" Foreground="#FF6A6969" RenderTransformOrigin="1,1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="5" Y="5"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label5" Content="Question: What is the colour of the flag in our company logo?" HorizontalAlignment="Left" Margin="72,507,0,0" VerticalAlignment="Top" Width="670" FontSize="22" FontWeight="Bold" Foreground="#FF6A6969"/>
+        <Button x:Name="button_Copy" Content="Blue" HorizontalAlignment="Left" Margin="341,558,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92DEE6" Foreground="#FF6A6969" RenderTransformOrigin="1,1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="5" Y="5"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button_Copy1" Content="Orange" HorizontalAlignment="Left" Margin="534,558,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FFEA9D02" Foreground="#FF6A6969" RenderTransformOrigin="1,1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="5" Y="5"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
     </Grid>
 </Window>
