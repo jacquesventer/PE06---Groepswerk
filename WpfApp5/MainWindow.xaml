@@ -26,38 +26,11 @@
         <Label x:Name="label3_Copy1" Content="City" HorizontalAlignment="Left" Margin="61,464,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11"/>
         <Label x:Name="label3_Copy2" Content="Postal Code" HorizontalAlignment="Left" Margin="405,464,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11"/>
         <Image x:Name="Image1_png" Margin="250,11,250,660" Source="Image1.png" Stretch="Fill"/>
-        <Label x:Name="label4" Content="* All correct answers will be entered into the draw, the winner will be notified by email  " HorizontalAlignment="Left" Margin="64,646,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Green" HorizontalAlignment="Left" Margin="149,558,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92E692" Foreground="#FF6A6969" RenderTransformOrigin="1,1">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform X="5" Y="5"/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
+        <Label x:Name="label4" Content="* All correct answers will be entered into the draw, the winner will be notified by email  " HorizontalAlignment="Left" Margin="64,663,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnGreen" Content="Green" HorizontalAlignment="Left" Margin="149,566,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92E692" Foreground="#FF6A6969" RenderTransformOrigin="1,1"/>
         <Label x:Name="label5" Content="Question: What is the colour of the flag in our company logo?" HorizontalAlignment="Left" Margin="72,507,0,0" VerticalAlignment="Top" Width="670" FontSize="22" FontWeight="Bold" Foreground="#FF6A6969"/>
-        <Button x:Name="button_Copy" Content="Blue" HorizontalAlignment="Left" Margin="341,558,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92DEE6" Foreground="#FF6A6969" RenderTransformOrigin="1,1">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform X="5" Y="5"/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
-        <Button x:Name="button_Copy1" Content="Orange" HorizontalAlignment="Left" Margin="534,558,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FFEA9D02" Foreground="#FF6A6969" RenderTransformOrigin="1,1">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform X="5" Y="5"/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
+        <Button x:Name="btnBlue" Content="Blue" HorizontalAlignment="Left" Margin="341,566,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92DEE6" Foreground="#FF6A6969" RenderTransformOrigin="1,1"/>
+        <Button x:Name="btnOrange" Content="Orange" HorizontalAlignment="Left" Margin="534,566,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FFEA9D02" Foreground="#FF6A6969" RenderTransformOrigin="1,1"/>
 
     </Grid>
 </Window>
