@@ -1,7 +1,7 @@
-﻿<Application x:Class="Mailing_List.App"
+﻿<Application x:Class="MailingList.Lib.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Mailing_List"
+             xmlns:local="clr-namespace:MailingList.Lib"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

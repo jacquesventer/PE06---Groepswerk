@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Mailing_List
+namespace MailingList.Lib
 {
     /// <summary>
     /// Interaction logic for App.xaml

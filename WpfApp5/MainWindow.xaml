@@ -13,7 +13,7 @@
         <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" Margin="410,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
         <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="65,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="665"/>
         <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="23" Margin="65,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="665"/>
-        <TextBox x:Name="txtAddressLine1" HorizontalAlignment="Left" Height="23" Margin="65,377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="665"/>
+        <TextBox x:Name="txtStreet" HorizontalAlignment="Left" Height="23" Margin="65,377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="665"/>
         <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="23" Margin="190,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345"/>
         <TextBox x:Name="txtPostalCode" HorizontalAlignment="Left" Height="23" Margin="556,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
         <Label x:Name="label2" Content="Name" HorizontalAlignment="Left" Margin="62,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.148,0.471" FontWeight="Bold" Foreground="#FF6A6969"/>
