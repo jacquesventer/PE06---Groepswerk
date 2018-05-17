@@ -23,7 +23,6 @@ namespace MailingList.Wpf
     /// </summary>
     public partial class MainWindow : Window
     {
-        string bestandsPad;
         DeelnemerServices beheerDeelnemers = new DeelnemerServices();
         Deelnemer deelnemer_Sel;
         //TextBoxControl beheerControls = new TextBoxControl();
@@ -32,7 +31,6 @@ namespace MailingList.Wpf
         {
             InitializeComponent();
             DataOphalen();
-            this.WindowState = WindowState.Maximized;
         }
 
         void VulList()

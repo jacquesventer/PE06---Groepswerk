@@ -34,17 +34,17 @@ namespace MailingList.Lib.Services
                 dbRead = sqlCommand.ExecuteReader();
                 while (dbRead.Read())
                 {
-                    int id = dbRead.GetInt32(0);
-                    string firstName = dbRead.GetString(1).ToString();
-                    string lastName = dbRead.GetString(2).ToString();
-                    string email = dbRead.GetString(3).ToString();
-                    int phone = dbRead.GetInt32(4);
-                    string street = dbRead.GetString(5).ToString();
-                    int streetNumber = dbRead.GetInt32(6);
-                    string city = dbRead.GetString(7).ToString();
-                    int postalCode = dbRead.GetInt32(8);
-                    string answer = dbRead.GetString(2).ToString();
-                    Deelnemer deelnemer = new Deelnemer(id, firstName, lastName, email, phone, street, streetNumber, city, postalCode, answer);
+                    int Id = dbRead.GetInt32(0);
+                    string FirstName = dbRead.GetString(1).ToString();
+                    string LastName = dbRead.GetString(2).ToString();
+                    string Email = dbRead.GetString(3).ToString();
+                    int Phone = dbRead.GetInt32(4);
+                    string Street = dbRead.GetString(5).ToString();
+                    int StreetNumber = dbRead.GetInt32(6);
+                    string City = dbRead.GetString(7).ToString();
+                    int PostalCode = dbRead.GetInt32(8);
+                    string Answer = dbRead.GetString(2).ToString();
+                    Deelnemer deelnemer = new Deelnemer(Id, FirstName, LastName, Email, Phone, Street, StreetNumber, City, PostalCode, Answer);
                     deelnemers.Add(deelnemer);
                 }
                 gelukt = true;
@@ -63,7 +63,6 @@ namespace MailingList.Lib.Services
             }
             return gelukt;
         }
-
 
         public bool NieuwDeelnemer(Deelnemer deelnemer)
         {
