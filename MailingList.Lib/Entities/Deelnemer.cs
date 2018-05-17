@@ -38,6 +38,21 @@ namespace MailingList.Lib.Entities
 
     }
 
+    public Deelnemer(int _id, string _firstName, string _lastName, string _email, int _phone,
+        string _street, int _streetNumber, string _city, int _postalCode)
+        {
+            Id = _id;
+            FirstName = _firstName;
+            LastName = _lastName;
+            Email = _email;
+            Phone = _phone;
+            Street = _street;
+            StreetNumber = _streetNumber;
+            City = _city;
+            PostalCode = _postalCode;
+
+        }
+
         public override string ToString()
         {
             string info = $"{FirstName} {LastName} {City}";
