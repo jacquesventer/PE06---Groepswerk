@@ -1,0 +1,15 @@
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\bin\Debug\WpfApp5.exe.config
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\bin\Debug\WpfApp5.exe
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\bin\Debug\WpfApp5.pdb
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\MainWindow.g.cs
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\App.g.cs
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.cache
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.lref
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\MainWindow.baml
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\WpfApp5.g.resources
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\WpfApp5.Properties.Resources.resources
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\questionnaire.csproj.GenerateResource.cache
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\questionnaire.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\WpfApp5.exe
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\WpfApp5.pdb
+D:\Visual Studio 2017\Source\PE06_GroepsWerk.wpf\WpfApp5\obj\Debug\questionnaire.csprojAssemblyReference.cache
