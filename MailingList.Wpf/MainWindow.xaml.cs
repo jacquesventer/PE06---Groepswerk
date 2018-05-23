@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Data.OleDb;
 using MailingList.Lib.Entities;
 using MailingList.Lib.Services;
+using InputControl.Lib;
 
 namespace MailingList.Wpf
 {
@@ -59,22 +60,6 @@ namespace MailingList.Wpf
             txtCity.Clear();
             txtPostalCode.Clear();
             VulList();
-        }
-
-        private void lstPersoneel_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if (lstMailingList.SelectedIndex >= 0)
-            {
-                deelnemer_Sel = (Deelnemer)lstMailingList.SelectedItem;
-                txtFirstName.Text = deelnemer_Sel.FirstName;
-                txtLastName.Text = deelnemer_Sel.LastName;
-                txtEmail.Text = deelnemer_Sel.Email;
-                txtPhone.Text = deelnemer_Sel.Phone.ToString();
-                txtStreet.Text = deelnemer_Sel.Street;
-                txtStreetNumber.Text = deelnemer_Sel.StreetNumber.ToString();
-                txtCity.Text = deelnemer_Sel.City;
-                txtPostalCode.Text = deelnemer_Sel.PostalCode.ToString();
-            }
         }
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
@@ -127,6 +112,22 @@ namespace MailingList.Wpf
         private void btnSendWinnersMail_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void lstMailingList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (lstMailingList.SelectedIndex >= 0)
+            {
+                deelnemer_Sel = (Deelnemer)lstMailingList.SelectedItem;
+                txtFirstName.Text = deelnemer_Sel.FirstName;
+                txtLastName.Text = deelnemer_Sel.LastName;
+                txtEmail.Text = deelnemer_Sel.Email;
+                txtPhone.Text = deelnemer_Sel.Phone.ToString();
+                txtStreet.Text = deelnemer_Sel.Street;
+                txtStreetNumber.Text = deelnemer_Sel.StreetNumber.ToString();
+                txtCity.Text = deelnemer_Sel.City;
+                txtPostalCode.Text = deelnemer_Sel.PostalCode.ToString();
+            }
         }
     }
 }

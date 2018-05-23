@@ -43,7 +43,7 @@ namespace MailingList.Lib.Services
                     int StreetNumber = dbRead.GetInt32(6);
                     string City = dbRead.GetString(7).ToString();
                     int PostalCode = dbRead.GetInt32(8);
-                    string Answer = dbRead.GetString(2).ToString();
+                    string Answer = dbRead.GetString(9).ToString();
                     Deelnemer deelnemer = new Deelnemer(Id, FirstName, LastName, Email, Phone, Street, StreetNumber, City, PostalCode, Answer);
                     deelnemers.Add(deelnemer);
                 }

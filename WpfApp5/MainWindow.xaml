@@ -26,10 +26,10 @@
         <Label x:Name="label3_Copy2" Content="Postal Code" HorizontalAlignment="Left" Margin="550,439,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11"/>
         <Image x:Name="Image1_png" Margin="250,11,250,660" Source="Image1.png" Stretch="Fill" Width="300" Height="70"/>
         <Label x:Name="label4" Content="* All correct answers will be entered into the draw, the winner will be notified by email  " HorizontalAlignment="Left" Margin="64,669,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnGreen" Content="Green" HorizontalAlignment="Left" Margin="149,546,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92E692" Foreground="#FF6A6969" RenderTransformOrigin="1,1" TabIndex="9"/>
+        <Button x:Name="btnGreen" Content="Green" HorizontalAlignment="Left" Margin="149,546,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92E692" Foreground="#FF6A6969" RenderTransformOrigin="1,1" TabIndex="9" Click="btnGreen_Click"/>
         <Label x:Name="label5" Content="Question: What is the colour of the flag in our company logo?" HorizontalAlignment="Left" Margin="72,487,0,0" VerticalAlignment="Top" Width="670" FontSize="22" FontWeight="Bold" Foreground="#FF6A6969"/>
-        <Button x:Name="btnBlue" Content="Blue" HorizontalAlignment="Left" Margin="341,546,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92DEE6" Foreground="#FF6A6969" RenderTransformOrigin="1,1" TabIndex="10"/>
-        <Button x:Name="btnOrange" Content="Orange" HorizontalAlignment="Left" Margin="534,546,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FFEA9D02" Foreground="#FF6A6969" RenderTransformOrigin="1,1" TabIndex="11"/>
+        <Button x:Name="btnBlue" Content="Blue" HorizontalAlignment="Left" Margin="341,546,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FF92DEE6" Foreground="#FF6A6969" RenderTransformOrigin="1,1" TabIndex="10" Click="btnBlue_Click"/>
+        <Button x:Name="btnOrange" Content="Orange" HorizontalAlignment="Left" Margin="534,546,0,0" VerticalAlignment="Top" Width="114" Height="43" Background="#FFEA9D02" Foreground="#FF6A6969" RenderTransformOrigin="1,1" TabIndex="11" Click="btnOrange_Click"/>
         <Label x:Name="label3_Copy3" Content="Street" HorizontalAlignment="Left" Margin="61,393,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11"/>
         <TextBox x:Name="txtStreetNumber" HorizontalAlignment="Left" Height="23" Margin="65,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" TabIndex="6"/>
         <Label x:Name="label3_Copy4" Content="Street Number" HorizontalAlignment="Left" Margin="62,439,0,0" VerticalAlignment="Top" Foreground="#FF6A6969" FontSize="11" Width="92"/>

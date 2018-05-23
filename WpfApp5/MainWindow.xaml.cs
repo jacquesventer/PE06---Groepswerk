@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Data.OleDb;
 using MailingList.Lib.Entities;
 using MailingList.Lib.Services;
+using InputControl.Lib;
 
 
 
@@ -29,6 +30,21 @@ namespace WpfApp5
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnGreen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBlue_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnOrange_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

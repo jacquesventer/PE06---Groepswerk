@@ -26,7 +26,7 @@
         <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="6" Grid.Column="3" HorizontalAlignment="Left" Height="238" Margin="196,107,0,0" VerticalAlignment="Top" Width="659"/>
 
         <Image x:Name="Image1_png" Margin="0,0,33,694" Source="Image1.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Column="2" Width="300" Height="70"/>
-        <ListBox x:Name="lstMailingList" HorizontalAlignment="Left" Height="203" Margin="57,142,0,0" VerticalAlignment="Top" Width="672" RenderTransformOrigin="-0.328,0.018" Grid.ColumnSpan="4" TabIndex="1"/>
+        <ListBox x:Name="lstMailingList" HorizontalAlignment="Left" Height="203" Margin="57,142,0,0" VerticalAlignment="Top" Width="672" RenderTransformOrigin="-0.328,0.018" Grid.ColumnSpan="4" TabIndex="1" SelectionChanged="lstMailingList_SelectionChanged"/>
         <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="57,397,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Grid.ColumnSpan="2" TabIndex="2"/>
         <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" Margin="328,397,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Grid.ColumnSpan="3" Grid.Column="1" TabIndex="3"/>
         <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="57,467,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="672" Grid.ColumnSpan="4" TabIndex="4"/>
